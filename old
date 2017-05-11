@@ -1,0 +1,37 @@
+// TOTAL USERS
+
+    // $('#TotalUsers').click(function(){
+    // 	AmCharts.clear();
+    // 	$('#ndays').css('display','none');
+    // 	$("#show_charts1 >li").removeClass("active")
+    // 	$(this).parent().addClass('active');
+		// $.ajax({
+		// 	 	  url: backEndUrl+'/getTotalUsers',
+		// 		//url: 'http:localhost:8080/samdashboard/getTotalUsersByDays?rom=2016-07-21T17:34:49.000Z&to=2016-11-21T17:34:49.000Z',
+		// 	 	  dataType:"json",
+		// 	 	  contentType:"application/json",
+		// 	 	  async: false,
+		// 	  	 error: function() {
+		// 	 	     $('#info').html('<p>An error has occurred</p>');
+		// 	 	 },
+		// 	  	  success: function(data){
+    //
+		// 	  	     charTitle = data.titles[0].text;
+	  //               chartSelector ="chartdivCustom";
+	  //               chartData =data.dataProvider;
+	  //               // chart.clear();
+	  //               console.log(charTitle,chartSelector, chartData);
+	  //               AmCharts.clear();
+	  //               makeChart(chartSelector, charTitle, chartData);
+    //
+		// 	  	 },
+		// 	   type: 'GET'
+		// 	});
+		//  // makeChart(chartSelector, charTitle, chartData);
+		//  var number= $(this).index();
+		//  $('.sec').hide().eq(number).show();
+		//  $(this).toggleClass('active inactive');
+		//  $('ul#navigation li').not(this).removeClass('active').addClass('inactive');
+    //
+  	// });
+////////////////////////////////////////////////////////////////////
