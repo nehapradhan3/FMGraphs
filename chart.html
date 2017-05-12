@@ -1,19 +1,69 @@
 <!DOCTYPE html>
-  <html>
+<html>
 
 <head>
-<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-<script src="https://www.amcharts.com/lib/3/serial.js"></script>
-<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-<script src="js/jQuery/jquery-2.2.3.min.js"></script>
-<script src="js/main.js"></script>
-<link rel="stylesheet" href="css/main.css"/>
-<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
-<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="https://www.amcharts.com/lib/3/pie.js"></script>
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+  <script src="js/jQuery/jquery-2.2.3.min.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main.css"/>
+  <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+  <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+  <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all" />
+
 </head>
 <body>
+  <div id="row"><!--div class row-->
+    <div class="metroblock buysblock left ">
+      <span class="icon fontawesome-briefcase left"></span>
+      <div id= "usersValue"><!--users-->
+        <i class="fa fa-user" aria-hidden="true">  <h1 id="usercount"></h1></i>
+      </div> <!--end of users is-->
+      <div class="clear"></div>
+      <h2> Total Number Of Users</h2>
+    </div>
+    <div class="metroblock commentsblock left ">
+      <span class="icon fontawesome-comments left"></span>
+      <div id= "accountsValue"><!--accounts-->
+        <i class="fa fa-cogs" aria-hidden="true">  <h1 id="accountCount"></h1></i>
+      </div>
+      <div class="clear"></div>
+      <h2>Accounts</h2>
+    </div>
+    <div class="metroblock emailThreads left ">
+      <span class="icon fontawesome-comments left"></span>
+      <div id= "emailThreadsValue"><!--emailThreads-->
+        <i class="fa fa-envelope" aria-hidden="true"><h1 id="EmailThreadsCount"></h1></i>
+      </div>
+      <div class="clear"></div>
+      <h2>Email Threads</h2>
+    </div>
+    <div class="metroblock candidateThreads left ">
+      <span class="icon fontawesome-comments left"></span>
+      <div id= "candidateThreadsValue"><!--emailThreads-->
+        <i class="fa fa-bookmark" aria-hidden="true"><h1 id="candidateThreadsCount"></h1></i>
+      </div>
+      <div class="clear"></div>
+      <h2>Candidate Threads</h2>
+    </div>
+    <div class="metroblock followUpThreads left ">
+      <span class="icon fontawesome-comments left"></span>
+      <div id= "markedAsFollowUpValue"><!--emailThreads-->
+        <i class="fa fa-caret-square-o-right" aria-hidden="true"><h1 id="markedAsFollowUpCount"></h1></i>
+      </div>
+      <div class="clear"></div>
+      <h2>Marked as Follow Up</h2>
+    </div>
+  </div><!--row ends here-->
+  <div>
 
-<div id="chartdiv"></div>
+    <div id="chartdivTwo"></div>
+  <h2 style="text-align:center; padding-top:100px;">fig1:User Statistics</h2>
+    <div id="chartdiv"></div>
+  </div><br/></br><br/><br/>
 
 
 </body>
